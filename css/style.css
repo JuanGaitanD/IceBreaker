@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans&family=Ubuntu+Condensed&display=swap');
+body{
+    background-color: #ece8dd;
+    color: #ece8dd;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: large;
+}
+
+main{
+    background-color: #444653;
+    max-width: 1000px;
+    height: max-content;
+    margin-inline: auto;
+    padding: 30px;
+}
+
+hr{
+    color: #ece8dd;
+    border: 3px inset;
+}
+
+#button{
+    background-color: #d26d71;
+    color: #ece8dd;
+    font-weight: bold;
+    font-size: large;
+}
+
+#button_2{
+    background-color: #444653ab;
+    color: #ece8dd;
+    font-weight: bold;
+    font-size: large;
+}
+
+#pregunta{
+    background-color: #ece8dd;
+    color: #444653;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+
+    font-style: italic;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #444653;
+    color: #ece8dd;
+    /* font-family: 'Lilita One', cursive; */
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: #ece8dd;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #d26d71;
+}
